@@ -1,4 +1,4 @@
-# Create Azure Container Group (ACI) via Azure Portal (Concise Guide)
+# Create Container Instance and deploy a simple docker application on it. Create Container Groups and test functionality
 
 This guide provides the direct steps to deploy a container group in Azure using the Azure portal's visual interface.
 
