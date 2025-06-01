@@ -25,10 +25,9 @@ This guide provides the direct steps to deploy a container group in Azure using 
     * **Image source:** Select `Azure Container Registry`.
     * **Registry:** From the dropdown, choose your specific Azure Container Registry (e.g., `myuniqueacrname`).
     * **Image:** Select the Docker image you want to deploy from your ACR (e.g., `nginx:latest`).
-    * **Image pull secret:**
-        * Check the `Admin user` box if you're using ACR's admin credentials.
     * **Operating system:** This will typically be auto-detected (e.g., `Linux`).
     * **Size:** Adjust **CPU** and **Memory** if needed (defaults are often sufficient).
+![alt text](../4-container-groups/screenshots/image.png)
 
 * Click the **`Next: Networking >`** button to proceed.
 
@@ -42,7 +41,7 @@ This guide provides the direct steps to deploy a container group in Azure using 
     * **Ports:**
         * **Port:** Enter `80`.
         * **Protocol:** Select `TCP`.
-
+![alt text](../4-container-groups/screenshots/image-1.png)
 * Click the **`Next: Advanced >`** button.
 
 ---
@@ -62,13 +61,15 @@ This guide provides the direct steps to deploy a container group in Azure using 
 * Click the **`Create`** button.
 
 The deployment process will begin and take a few minutes.
-
+![alt text](../4-container-groups/screenshots/image-2.png)
 ---
 
 ### 6. Access Your Running Container Group
 
 * Once deployment is complete, click **`Go to resource`**.
 * On the **`Overview`** page of your new container instance, locate the **`FQDN`** (Fully Qualified Domain Name).
+![alt text](../4-container-groups/screenshots/image-3.png)
 * Click on the **FQDN link**, or copy and paste it into your web browser.
 
 You should now see your containerized application (e.g., the default Nginx welcome page).
+![alt text](../4-container-groups/screenshots/image-4.png)
