@@ -20,4 +20,4 @@ Each directory contains:
 - A detailed README.md with step-by-step instructions
 - Screenshots demonstrating the implementation process
 
-Navigate to any of the links above to access the specific assignment instructions and documentation.
+Navigate to any of the links above to access the specific assignment instructions and documentation. I have added screenshots wherever possible.

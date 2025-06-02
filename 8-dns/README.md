@@ -1,6 +1,6 @@
 # Setup Domain, Web Server on VM, and Azure DNS
-
-This guide outlines how to host a website on an Azure VM, point a custom domain to it using Azure DNS, and ensure traffic reaches your server.
+This guide outlines how to host a website on an Azure VM, point a custom domain to it using Azure DNS, and ensure traffic reaches your server.  
+**I do not have access to a domain name so couldnt fully follow through all the steps.**
 
 ## Part 1: Create a VM and Install Web Server
 
